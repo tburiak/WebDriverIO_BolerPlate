@@ -16,7 +16,7 @@ const wdioConfig = {
   path: "/wd/hub",
   specs: [SPECS],
   sync: true,
-  logLevel: "silent",
+  // logLevel: "silent",
   services: ["selenium-standalone"],
   capabilities: [
     {
